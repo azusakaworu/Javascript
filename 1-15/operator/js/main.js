@@ -2,7 +2,7 @@
 
 
 
-/*typeof-------------检测数据类型---------------*/
+/*typeof-------------检测数据类型-------------（一元运算符）--*/
 var a =123;
 var result = typeof a;
 console.log(result); //--> number
@@ -14,7 +14,7 @@ console.log(typeof result); //--> string
 
 
 
-/* arithmetic operator 算术运算符------------- */
+/* arithmetic operator 算术运算符-------------(二元运算符) */
 //先转number 再运算（除了字符串加法）
 var b = 123;
 var result = b + true; // -->124   true = 1 , false = 0

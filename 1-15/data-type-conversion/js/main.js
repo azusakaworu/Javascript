@@ -175,7 +175,7 @@ console.log(unm); //56
 
 
 /* 转换成 Boolean --------------------唯有js 可以做------------------记住！--------------------- */
-// Boolean()函数
+// method 1 : Boolean()函数
 
 var bo = 123;
     bo = Boolean(bo);
@@ -190,6 +190,14 @@ console.log(typeof bo1);
 //Null , undefined --> false
 
 //object -->ture  
+
+//method 2 : !! 隐式类型转换成Boolean 用两次非运算 (推荐 更简单)
+var bo2 = "hahahahah";
+    bo2 = !!bo2;
+console.log(bo2); //true
+console.log(typeof bo2); //boolean
+
+
 
 
 
