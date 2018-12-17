@@ -1,9 +1,8 @@
 # Javascript
 基础练习 
 ### 0-15
+data type, data type Conversion ,operator 
 
-data type 
+### 16-30
 
-```
-string boolean number null undefined object (es5?)
-```
+
