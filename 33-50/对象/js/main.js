@@ -58,7 +58,10 @@ console.log(obj);
         obj2.name ="zbj";
     //将obj2设置为obj的属性
     obj.test =obj2; //值是一个对象 ， 塑料袋里套塑料袋
-    
+
+    obj.sayH = function(){document.write("属性值也可以是function");};
+    obj.sayH();
+
     console.log(obj);
     console.log(obj.test.name); //在塑料袋里的塑料袋里找name属性
 
@@ -118,8 +121,19 @@ var obj7 = {
       name: "ld",
       age: 23,
       test3:{name:"test"}, //属性值可以是任意数据类型 甚至是object
-      home: "huhhot" //最后一个属性后面别加逗号
-
+      home: "huhhot" ,//最后一个属性后面别加逗号
+      sayH1:function(){document.write("<br>");document.write("我是对象字面量写法里属性值为function的例子");}
 }
-
+obj7.sayH1();
 console.log(obj7);
+
+
+//枚举对象中的属性  for in -->有几个属性，循环体就执行几次
+
+for (var meijv in obj7){
+    console.log(meijv +":"+ obj7[meijv]);//[]可以直接传递变量， 更灵活 可变。
+
+    
+    // console.log(meijv); //属性名
+    // console.log(obj7[meijv]); //属性值
+}
