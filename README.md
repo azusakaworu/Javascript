@@ -7,6 +7,6 @@ data type, data type Conversion ,operator
 Assignment operator, Logical operators ,Unary Operators
 ### 30-50
 if /switch, while /for， object
-### 51-65
-function
+### 51-69
+function 构造函数 原型对象 this return
 
