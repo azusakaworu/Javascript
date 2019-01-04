@@ -14,6 +14,18 @@ this 指向一个对象-->上下文对象
 
 
 */
+
+/*this:
+1.以函数形式调用时，this永远都是window
+2.以方法的形式调用时，this是调用方法的对象 xxx.xxx();
+3.以构造函数的形式调用时，this是新创建的那个对象
+4.使用call和apply调用时，this是第一个参数（指定的那个对象）
+
+
+-----------------*/
+
+
+
 function fun (a,b){
 	console.log(this.name); //指向全局对象window
 }
