@@ -8,5 +8,8 @@ Assignment operator, Logical operators ,Unary Operators
 ### 30-50
 if /switch, while /for， object
 ### 51-69
-function 构造函数 原型对象 this return
-
+function 构造函数 原型对象 this return 作用域 
+### 70-84
+Date(); Math String对象 Array  的常用方法 ，属性
+### 85-90
+正则表达式
