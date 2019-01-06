@@ -1,0 +1,10 @@
+/*css 图片切换练习 */
+
+body{margin: 0;padding: 0;}
+#outer{margin: 50px auto;
+	   width: 500px;
+	   background-color: yellowgreen;
+	   padding: 10px;
+	   text-align: center;}
+
+img{width: 500px;height: 320px;}

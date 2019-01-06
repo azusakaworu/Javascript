@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>正则表达式简介</title>
+	<title>文档的加载</title>
+
+	<script type="text/javascript">
+		//非要写上面：为window绑定一个onload事件-->页面加载完以后才触发 
+		window.onload = function(){
+	          var btn = document.getElementById("btn");
+              btn.onclick =function(){alert("hi dangdang");};
+
+          };
+	</script>
 </head>
 <body>
+	
+	
+   <button id="btn">点我</button>
 
 
+<!--内部js代码 要写在最下面
+<script type="text/javascript">
+
+	var btn = document.getElementById("btn");
+    btn.onclick =function(){
+    	alert("hi dangdang");
+    };
+
+</script>
+
+-->
+
+<!--外部js代码 写在最下面 （最推荐）-->
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
