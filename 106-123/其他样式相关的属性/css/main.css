@@ -1,2 +1,10 @@
-/*css*/
+/*css  其他样式相关属性*/
 
+#box1{width: 150px;height: 150px;background-color: pink;
+	padding: 10px;border: 3px solid yellow;margin: 10px;}
+
+#box2{padding:22px;background-color: green; }
+
+#box4{width: 200px;height: 150px;background-color:#bfa;overflow: auto;}
+
+#box5{width: 800px;height: 30px;background-color: orange;}

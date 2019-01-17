@@ -11,7 +11,7 @@ function delateA(){
 		}
 		
 		return false;//在响应函数最后加这一行 可以不使页面跳转
-		             //或者在HTML里改成
+		             //或者在HTML里改成href="javascript:;"
 	};
 
 //点击一个超链接以后，删除一个员工的信息

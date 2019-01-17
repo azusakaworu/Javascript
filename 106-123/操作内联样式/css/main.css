@@ -1,2 +1,14 @@
 /*css*/
 
+#box1{width: 200px;height: 100px;background-color: green ;}
+
+/* background-color: green !important;
+
+!important 最高优先级
+
+表示这个样式很重要， 不会被覆盖
+
+但是一旦加了 js就作废了 -->  不常用
+
+
+ */
