@@ -1,2 +1,7 @@
 /*css*/
 
+#box1{width: 100px;height: 100px;background-color: pink;
+
+	position: absolute;} 
+
+	/*要开启定位 position: absolute; clentX |Y 才能生效*/
