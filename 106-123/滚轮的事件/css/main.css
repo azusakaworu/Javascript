@@ -1,2 +1,4 @@
-/*css*/
+/*css鼠标滚轮的事件*/
 
+#box1{width: 100px;height: 100px;background-color: pink;}
+body{height: 3000px;}
